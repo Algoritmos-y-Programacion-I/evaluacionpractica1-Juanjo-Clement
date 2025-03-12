@@ -92,39 +92,71 @@ public class Guacamaya {
      */
     public static void establecerCantidadVendida() {
 
-        System.out.println("\nDigite el numero de referencias de producto diferentes vendidas en el dia ");
-        int referencias = reader.nextInt();
+        System.out.println("\nDigite el numero de referencias de producto diferentes vendidas en el dia: ");
+        int pesos = reader.nextInt();
+        int cantidadProductos = reader.nextInt();
 
-        precios = new double[referencias];
-        unidades = new int[referencias];
+        precios = new double[pesos];
+        unidades = new int[cantidadProductos];
+
+        
 
     }
 
-    public static void solicitarDatos(){
+    //* El método le solicita los datos al usuario.*/
+    public static void solicitarDatos(int pesos, int cantidadProductos){
+        
+        int datos = reader.nextInt();
 
-     
+        System.out.println(datos);
+        
+
     }
 
+    //* El método calcula el total de las unidades vendidas durante el día.*/
     public static int calcularTotalUnidadesVendidas(){
+        int unidadesVendidas = reader.nextInt();
 
+        System.out.println();
         return 0;
 
     }
 
+    //* El método calcula el promedio de referencias del producto vendidas.*/
     public static double calcularPrecioPromedio(){
 
+        int promedio = reader.nextInt();
+        int sumaProductos = reader.nextInt();
+        int cantidadProductos = reader.nextInt();
+
+        System.out.println((int unidadesVendidas)/(int cantidadProductos));
         return 0;
 
     }
 
+    //* El método calcula las ventas totales del día./
     public static double calcularVentasTotales(){
 
+        int sumaProductos = reader.nextInt();
+        int ventasTotales = reader.nextInt();
+
+
+
+        System.out.println(int ventasTotales);
         return 0;
 
     }
 
+    //* El método hace la consulta de las referencias que superan el límite*/
     public static int consultarReferenciasSobreLimite(double limite){
+        
+        int consulta = reader.nextInt();
 
+        if(consulta >= 200000){
+             System.out.println("Las referencias que superaron el limite diario son: " + (consultarReferenciasSobreLimite));
+        }else{
+
+        }
         return 0;
 
     }
