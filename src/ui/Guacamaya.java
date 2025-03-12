@@ -103,60 +103,50 @@ public class Guacamaya {
 
     }
 
-    //* El método le solicita los datos al usuario.*/
     public static void solicitarDatos(int pesos, int cantidadProductos){
-        
+
+        System.out.println("Digite los datos (referencia de los productos): ");
         int datos = reader.nextInt();
 
-        System.out.println(datos);
-        
+        precios == 
 
     }
 
-    //* El método calcula el total de las unidades vendidas durante el día.*/
     public static int calcularTotalUnidadesVendidas(){
-        int unidadesVendidas = reader.nextInt();
+        unidadesVendidas = reader.nextInt();
 
-        System.out.println();
+        for(calcularTotalUnidadesVendidas){
+            System.out.println();
+        }else
         return 0;
 
     }
 
-    //* El método calcula el promedio de referencias del producto vendidas.*/
     public static double calcularPrecioPromedio(){
 
         int promedio = reader.nextInt();
         int sumaProductos = reader.nextInt();
         int cantidadProductos = reader.nextInt();
 
-        System.out.println((int unidadesVendidas)/(int cantidadProductos));
+        System.out.println("El promedio de las unidades vendidas en el dia es de: " + (sumaProductos/cantidadProductos));
         return 0;
 
     }
 
-    //* El método calcula las ventas totales del día./
     public static double calcularVentasTotales(){
 
         int sumaProductos = reader.nextInt();
-        int ventasTotales = reader.nextInt();
 
-
-
-        System.out.println(int ventasTotales);
+        System.out.println("Las ventas totales del día fueron de: " + (sumaProductos));
         return 0;
 
     }
 
-    //* El método hace la consulta de las referencias que superan el límite*/
     public static int consultarReferenciasSobreLimite(double limite){
         
-        int consulta = reader.nextInt();
+        int consultarReferenciasSobreLimite = reader.nextInt();
 
-        if(consulta >= 200000){
-             System.out.println("Las referencias que superaron el limite diario son: " + (consultarReferenciasSobreLimite));
-        }else{
-
-        }
+        System.out.println("Las referencias que superaron el limite diario son: " + (consultarReferenciasSobreLimite));
         return 0;
 
     }
